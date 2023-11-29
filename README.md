@@ -1,4 +1,4 @@
-# Análises geográficas diversas sobre o Exame Nacional do Ensino Médio (ENEM)
+# Análises geográficas sobre o ENEM
 
 Aplicação desenvolvida para a disciplina de Banco de Dados Geográficos, semestre 2023/2, como **Projeto Final**, tendo como objetivo a realização de análises geográficas acerca do ENEM (Exame Nacional do Ensino Médio) por cidade com o decorrer dos anos dentro do período de 2013 a 2022.
 
