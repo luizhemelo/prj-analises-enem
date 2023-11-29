@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Análises de Dados do Enem</title>
+<meta name="description" content="Análise de Dados Históricos do Enem">
+<meta name="keywords" content="dados, visualizacao, enem, brasil">
+<link href="./src/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="wrapper"> 
+
+  <div id="header"> 
+
+    <div class="top_banner">
+      <h1>Análises de Dados do Enem</h1>
+      <p>Projeto Final - Banco de Dados Geográficos - 2023/2 - Prof. Clodoveu A. Davis Júnior</p>
+    </div>
+	
+    <div class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./src/pages/vis01_page.html">Núm. de Candidatos</a></li>
+        <li><a href="./src/pages/vis02_page.html">[GEO] Dist. de Candidatos</a></li>
+        <li><a href="./src/pages/vis04_page.html">Sobre o Autor</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+    <div class="right_section">
+      <div class="common_content">
+        <h2>Introdução e Motivação ao Projeto</h2>
+        <hr>
+        <p></br>
+        O Exame Nacional do Ensino Médio (ENEM) é uma prova realizada anualmente no Brasil pelo Instituto Nacional de 
+        Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), órgão vinculado ao Ministério da Educação (MEC). Ele tem 
+        como objetivo avaliar o desempenho dos estudantes que concluíram ou estão concluindo o ensino médio.
+        O exame é uma das principais formas de ingresso no ensino superior no Brasil, pois muitas universidades 
+        públicas e privadas utilizam a nota do exame como critério de seleção.
+         </br></br>
+         <p style="text-align:center;"><img src="./src/images/logo_enem.png" alt="Logo Enem" width=400px></p>
+        </br>
+         A prova do ENEM é composta por quatro áreas de conhecimento: Linguagens, Códigos e suas Tecnologias; 
+         Ciências Humanas e suas Tecnologias; Ciências da Natureza e suas Tecnologias; e Matemática e suas Tecnologias. 
+         Além disso, os estudantes também precisam realizar uma redação.
+         O exame é aplicado em dois dias consecutivos, sendo que cada dia de prova possui uma duração de 5 horas 
+         e 30 minutos. As questões do ENEM são elaboradas de forma interdisciplinar, buscando avaliar a capacidade 
+         de interpretação, análise e resolução de problemas dos estudantes.
+         A prova não é obrigatório, porém, é uma importante oportunidade para os estudantes que desejam ingressar 
+         no ensino superior, seja em universidades públicas ou privadas. Além disso, o exame também tem a função 
+         de avaliar a qualidade do ensino médio no país, fornecendo dados e indicadores sobre o desempenho dos estudantes e das escolas.
+        </br></br>
+        Explorar e estudar os microdados do ENEM oferece uma motivação fascinante para analistas e estudantes que buscam compreender 
+        profundamente os padrões educacionais e sociais no Brasil. Essa valiosa fonte de informações permite desvendar as 
+        nuances dos resultados do exame, identificando tendências, desigualdades e oportunidades de melhoria.
+        Ao mergulhar nesses dados detalhados, é possível investigar fatores como o desempenho dos candidatos, a influência socioeconômica 
+        nos resultados, as distribuições das idades observadas, entre outros aspectos relevantes.
+        </p>
+    </div> 
+    
+    <div class="right_section">
+      <div class="common_content">
+        <h2>Dados</h2>
+        <hr>
+        <p></br>
+        Neste trabalho foi utilizada a <a target=”_blank” href="https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem">base de
+        microdados públicos do INEP</a>, que possui informações diversas de exames realizados entre 1998 e 2022. Entretanto, devido a quantidade
+        massiva de dados contido em cada um dos anos, foram considerados apenas os últimos 10 anos - período compreendido entre os anos de 2013 e 2022.
+      </br></br>
+        Os microdados do ENEM são compilados a partir das informações coletadas durante a aplicação do exame. O Instituto Nacional de Estudos e 
+        Pesquisas Educacionais Anísio Teixeira (INEP), responsável pela organização do ENEM, coleta dados individuais de todos os participantes, 
+        incluindo respostas às questões, notas obtidas e informações socioeconômicas. Esses dados são tratados e organizados em um formato 
+        específico, conhecido como microdados, que permitem sua análise e uso em pesquisas e estudos estatísticos. Os microdados do ENEM 
+        são disponibilizados pelo INEP de forma pública, garantindo o acesso a pesquisadores, analistas e estudantes interessados em investigar
+        o desempenho e as características dos participantes do exame.
+      </p>
+    </div> 
+
+    <div class="right_section">
+      <div class="common_content">
+        <h2>Tecnologias Utilizadas</h2>
+        <hr>
+        <p></br>
+          <p style="text-align:center;">
+            <a target=”_blank” href="https://www.python.org/">
+              <img src="./src/images/logo_python.png" alt="Logo" width=100px>
+            </a>
+            <a target=”_blank” href="https://www.mapbox.com/">
+              <img src="./src/images/logo_mapbox.png" alt="Logo" width=200px>
+            </a>
+            <a target=”_blank” href="https://plotly.com/">
+              <img src="./src/images/logo_plotly.png" alt="Logo" width=100px>
+            </a>
+            <a target=”_blank” href="https://dev.w3.org/html5/spec-LC/">
+              <img src="./src/images/logo_html.png" alt="Logo" width=50px>
+            </a>
+            <a target=”_blank” href="https://www.w3.org/Style/CSS/specs.en.html">
+              <img src="./src//images/logo_css.png" alt="Logo" width=36px>
+            </a>
+            <a target=”_blank” href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">
+              <img src="./src/images/logo_bootstrap.png" alt="Logo" width=55px>
+            </a>
+          </p>
+      </br></br></br></br></br></br></br></br>
+      </p>
+    </div> 
+    	
+</body></html>
